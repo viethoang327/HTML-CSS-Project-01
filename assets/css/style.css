@@ -516,11 +516,17 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 16px;
     width: 28px;
     height: 28px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
 }
 .footer .social .social-link:hover {
     background-color: #e8e1e1;
+}
+.footer .social .social-link:first-child {
+    margin-left: 0;
 }
 /* ROW BOTTOM */
 .footer .row-bottom {
